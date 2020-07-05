@@ -37,7 +37,7 @@ http://127.0.0.1:8080 //访问
 > git配置多个远程仓库
 
 ```
-git remote add github git@github.com:fuxy1011/memory-deeply-wiki.git
+git remote add github https://github.com/fuxy1011/memory-deeply-wiki.git
 ```
 
 注意这里的oschina是远程仓库的ID，大家可以随便取，只要不重复就可以了。

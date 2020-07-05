@@ -1,0 +1,20 @@
+{
+  "name": "netwiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "start": "tiddlywiki wiki --listen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxy1011/memory-deeply-wiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuxy1011/memory-deeply-wiki/issues"
+  },
+  "homepage": "https://github.com/fuxy1011/memory-deeply-wiki#readme"
+}

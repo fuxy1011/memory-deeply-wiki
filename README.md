@@ -52,6 +52,19 @@ git push (-u) github master
 
 [git配置多个远程地址](https://blog.csdn.net/wudajushi/article/details/52038459?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
 
+## 注意
+
+> git push 时
+
+当多个远程仓库的时候，要带上别名。
+
+```
+git push origin
+git push github
+```
+
+对于 默认的 origin，也要带上，因为直接 git push，发现码云并没有更新代码。
+
 ## 遇到的问题
 
 > push到其他远程仓库，老是提示 版本超前，需要git pull，但是更新不下来。

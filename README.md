@@ -1,4 +1,16 @@
+# netwiki
 
+围绕问题，螺旋式成长
+
+## 关键字
+
+tiddlywiki，码云，github，markdown
+
+## 提交流程
+
+git add .
+git cz //按照代码提交日志规范来做好日志维护
+npm run deploy //执行远程库提交及wiki编译及部署目录更新
 
 ## 如何安装
 

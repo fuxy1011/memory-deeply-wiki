@@ -3,6 +3,12 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 提交到远程仓库-码云
+git push origin
+
+# 提交到远程仓库-github
+git push github
+
 # 生成静态文件
 tiddlywiki wiki --build index
 
